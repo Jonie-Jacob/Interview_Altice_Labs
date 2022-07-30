@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Altice Labs</title>
+
+    <!-- CSS imports for beautification -->
+    <link rel="stylesheet" href="./public/stylesheets/dist/bootstrap.min.css" />
+    <link rel="stylesheet" href="./public/stylesheets/src/style.css" />
+    <link rel="stylesheet" href="./public/stylesheets/dist/font-awesome.min.css" />
+    <link rel="stylesheet" href="./public/stylesheets/src/json.css" />
+
+    <!-- Ignore these js files - They are just some external libraries to make developers life easier -->
+    <script src="./public/javascripts/dist/jquery-3.5.1.js"></script>
+    <script src="./public/javascripts/dist/bootstrap.min.js"></script>
+    <script src="./public/javascripts/src/json.js"></script>
+    <script src="./public/javascripts/src/loader.js"></script>
+
+    <!-- The main script to be evaluated for interview -->
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main role="main" class="p-4 my-5">
+            <div id="loader" class="w-100 text-warning text-center"><i class="fa fa-spin fa-spinner fa-3x"
+                    aria-hidden="true"></i></div>
+            <div id="json-text-area" class="d-none mx-auto px-5">
+                <pre class="text-danger h6 w-auto m-auto p-5"></pre>
+            </div>
+            <div id="json-error" class="d-none w-100 text-danger h5 text-center">
+                <!-- Error Message -->
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

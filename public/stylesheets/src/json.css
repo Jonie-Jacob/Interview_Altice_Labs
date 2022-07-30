@@ -1,0 +1,49 @@
+pre {
+  background-color: black;
+  max-height: 85vh;
+  border: 1px solid #6ecfea;
+  padding: 10px 20px;
+  margin: 20px;
+}
+.json-key {
+  color: #2eb0c4;
+}
+.json-value {
+  color: #b46ed5;
+}
+.json-string {
+  color: rgb(177, 177, 6);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #6ecfea;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #023442;
+  outline: 1px solid slategrey;
+  border: #000000;
+  border-radius: 5em;
+}
+
+pre::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #6ecfea;
+}
+
+pre::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: #023442;
+  outline: 1px solid slategrey;
+  border: #000000;
+  border-radius: 5em;
+}

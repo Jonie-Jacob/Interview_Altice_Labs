@@ -48,3 +48,22 @@ C) And based on the API responses, build and return an array of objects with the
  ... 
 ]
 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kindly evaluate the main.js and the main.test.js and ignore the other functions
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Setup to see the result:
+
+1) Clone the repo and checkout to the main branch
+2) Open the index.html in your browser
+
+
+Setup to run test:-
+
+1) npm i
+2) npm test
